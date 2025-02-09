@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-api_id = os.environ['API_ID']
-api_hash = os.environ['API_HASH']
-bot_token=os.environ['BOT_TOKEN']
+api_id = os.environ['24324252']
+api_hash = os.environ['7f5a95a95508059acc07a7c3e3697081']
+bot_token=os.environ['7786409745:AAF0pJMOGZHj5RuDkPUzi_zu5MDaE8CbFWA']
 
 # Create a new client
 app = pyrogram.Client("cutimagebg_bot", api_id, api_hash, bot_token)
